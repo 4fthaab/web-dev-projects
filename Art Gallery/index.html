@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Creative Portfolio</title>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand">PORTFOLIO</div>
+        <div class="nav-links">
+            <a href="#gallery">GALLERY</a>
+            <a href="#contact">CONNECT</a>
+        </div>
+    </nav>
+
+    <section id="gallery" class="gallery-section">
+        <h1 class="section-title">My Creative Work</h1>
+        <div class="gallery-grid">
+            <div class="gallery-column">
+                <div class="gallery-item">
+                    <img src="images/artwork1.jpg" alt="Artwork 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/artwork2.jpg" alt="Artwork 2">
+                </div>
+            </div>
+            <div class="gallery-column">
+                <div class="gallery-item">
+                    <img src="images/artwork3.jpg" alt="Artwork 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/artwork4.jpg" alt="Artwork 4">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/artwork5.jpg" alt="Artwork 5">
+                </div>
+            </div>
+            <div class="gallery-column">
+                <div class="gallery-item">
+                    <img src="images/artwork6.jpg" alt="Artwork 6">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/artwork7.jpg" alt="Artwork 7">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="profile-card">
+                <img src="images/profile.jpg" alt="Profile" class="profile-image">
+                <h2 class="profile-heading">Hello, I'm an Artist</h2>
+                <p class="profile-text">
+                    Welcome to my creative space where imagination meets reality. Through my work, 
+                    I explore themes of nature, emotion, and human connection. Each piece tells a story, 
+                    inviting viewers to discover their own interpretations. Art has been my passion for years, 
+                    and I'm constantly evolving my style and techniques. I believe in the power of visual 
+                    storytelling to bridge cultures and inspire change. Thank you for taking the time to 
+                    experience my portfolio.
+                </p>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h3 class="form-heading">Let's Collaborate</h3>
+                <p class="form-subtitle">I'd love to hear from you</p>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; Created by 4fthaab</p>
+    </footer>
+</body>
+</html>
